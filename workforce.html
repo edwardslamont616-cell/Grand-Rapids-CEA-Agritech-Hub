@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Workforce Transition | Urban AgriTech Hub</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/feather-icons"></script>
+  <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'sans-serif'],
+          },
+          colors: {
+            agri: {
+              50: '#f0fdf4',
+              100: '#dcfce7',
+              200: '#bbf7d0',
+              300: '#86efac',
+              400: '#4ade80',
+              500: '#22c55e',
+              600: '#16a34a',
+              700: '#15803d',
+              800: '#14532d',
+              900: '#14532d',
+              950: '#052e16',
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="font-sans antialiased">
+  <!-- Navigation -->
+  <custom-navbar></custom-navbar>
+
+  <!-- Hero Section -->
+  <section class="min-h-screen flex items-center justify-center relative overflow-hidden pt-16">
+    <div class="absolute inset-0 z-0">
+      <div class="bg-agri-800 w-full h-full opacity-90"></div>
+      <img src="http://static.photos/people/1200x630/42" alt="Workforce Training Background" class="w-full h-full object-cover mix-blend-overlay">
+    </div>
+    <div class="container mx-auto px-6 md:px-12 relative z-10 text-center">
+      <h1 class="text-4xl md:text-6xl font-bold text-white mb-6">
+        Transforming <span class="gradient-text">Workforce Challenges</span> Into Opportunities
+      </h1>
+      <p class="text-xl text-agri-100 max-w-3xl mx-auto mb-10">
+        Comprehensive job creation and workforce transition program for displaced workers from SpartanNash, Steelcase, and Utz
+      </p>
+      <div class="flex flex-col sm:flex-row justify-center gap-4">
+        <a href="#program" class="bg-agri-600 hover:bg-agri-700 text-white font-semibold py-3 px-8 rounded-lg transition duration-300 transform hover:scale-105">
+          View Program Details
+        </a>
+        <a href="#impact" class="bg-transparent border-2 border-white text-white hover:bg-white hover:text-agri-800 font-semibold py-3 px-8 rounded-lg transition duration-300">
+          See Impact Metrics
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Executive Summary -->
+  <section id="summary" class="py-20 bg-white">
+    <div class="container mx-auto px-6 md:px-12">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-agri-900 mb-4">Program Overview</h2>
+        <div class="w-20 h-1 bg-agri-500 mx-auto"></div>
+      </div>
+      
+      <div class="bg-agri-50 rounded-2xl p-8 mb-12">
+        <h3 class="text-2xl font-bold text-agri-800 mb-6">Key Metrics</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="text-center">
+            <div class="text-4xl font-bold text-agri-700 mb-2">1,184+</div>
+            <p class="text-agri-800 font-medium">Target Beneficiaries</p>
+            <p class="text-gray-600 text-sm mt-2">Displaced workers from major layoffs</p>
+          </div>
+          
+          <div class="text-center">
+            <div class="text-4xl font-bold text-agri-700 mb-2">470</div>
+            <p class="text-agri-800 font-medium">Direct Jobs</p>
+            <p class="text-gray-600 text-sm mt-2">Permanent positions created</p>
+          </div>
+          
+          <div class="text-center">
+            <div class="text-4xl font-bold text-agri-700 mb-2">$43.9M</div>
+            <p class="text-agri-800 font-medium">Annual Economic Impact</p>
+            <p class="text-gray-600 text-sm mt-2">For the Grand Rapids region</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div>
+          <h3 class="text-2xl font-bold text-agri-800 mb-4">Executive Summary</h3>
+          <p class="text-gray-700 mb-6">
+            This comprehensive business plan outlines the development of an indoor soybean production facility specifically designed to address workforce displacement from major local employers including SpartanNash, Steelcase, and Utz.
+          </p>
+          <p class="text-gray-700 mb-6">
+            The plan integrates multiple advanced frameworks to create a robust workforce transition roadmap that transforms economic disruption into community resilience and sustainable agricultural innovation.
+          </p>
+          <div class="flex items-center">
+            <div class="mr-4 text-agri-600">
+              <i data-feather="clock" class="w-6 h-6"></i>
+            </div>
+            <div>
+              <h4 class="font-semibold text-agri-800">27-Month Implementation</h4>
+              <p class="text-gray-600">Timeline to full operation</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="bg-white border border-agri-200 rounded-2xl p-6">
+          <h4 class="font-bold text-agri-800 mb-4">Program Components</h4>
+          <ul class="space-y-3">
+            <li class="flex items-start">
+              <i data-feather="check-circle" class="w-5 h-5 text-agri-600 mr-2 mt-0.5"></i>
+              <span>Multi-track training programs for 6 specialized areas</span>
+            </li>
+            <li class="flex items-start">
+              <i data-feather="check-circle" class="w-5 h-5 text-agri-600 mr-2 mt-0.5"></i>
+              <span>Partnership with GRCC, MSU, and local organizations</span>
+            </li>
+            <li class="flex items-start">
+              <i data-feather="check-circle" class="w-5 h-5 text-agri-600 mr-2 mt-0.5"></i>
+              <span>Career advancement framework with 4 progression levels</span>
+            </li>
+            <li class="flex items-start">
+              <i data-feather="check-circle" class="w-5 h-5 text-agri-600 mr-2 mt-0.5"></i>
+              <span>Comprehensive risk mitigation strategies</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Training Program -->
+  <section id="program" class="py-20 bg-agri-50">
+    <div class="container mx-auto px-6 md:px-12">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-agri-900 mb-4">Training Program Architecture</h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">Six specialized tracks designed to match displaced workers' backgrounds with indoor farming requirements</p>
+        <div class="w-20 h-1 bg-agri-500 mx-auto mt-4"></div>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <!-- Track 1 -->
+        <div class="bg-white rounded-2xl shadow-lg p-6 hover-lift">
+          <div class="w-12 h-12 rounded-full bg-agri-100 flex items-center justify-center mb-4">
+            <i data-feather="droplet" class="w-6 h-6 text-agri-600"></i>
+          </div>
+          <h3 class="text-xl font-bold text-agri-800 mb-2">Hydroponics & Soilless Agriculture</h3>
+          <p class="text-gray-600 mb-4">12-week program for 150 participants</p>
+          <ul class="text-sm text-gray-600 space-y-1">
+            <li>• Nutrient management</li>
+            <li>• pH control</li>
+            <li>• Hydroponic systems</li>
+          </ul>
+        </div>
+        
+        <!-- Track 2 -->
+        <div class="bg-white rounded-2xl shadow-lg p-6 hover-lift">
+          <div class="w-12 h-12 rounded-full bg-agri-100 flex items-center justify-center mb-4">
+            <i data-feather="settings" class="w-6 h-6 text-agri-600"></i>
+          </div>
+          <h3 class="text-xl font-bold text-agri-800 mb-2">Facility Operations & Maintenance</h3>
+          <p class="text-gray-600 mb-4">16-week program for 200 participants</p>
+          <ul class="text-sm text-gray-600 space-y-1">
+            <li>• HVAC systems</li>
+            <li>• LED lighting</li>
+            <li>• Automation equipment</li>
+          </ul>
+        </div>
+        
+        <!-- Track 3 -->
+        <div class="bg-white rounded-2xl shadow-lg p-6 hover-lift">
+          <div class="w-12 h-12 rounded-full bg-agri-100 flex items-center justify-center mb-4">
+            <i data-feather="shield" class="w-6 h-6 text-agri-600"></i>
+          </div>
+          <h3 class="text-xl font-bold text-agri-800 mb-2">Quality Control & Food Safety</h3>
+          <p class="text-gray-600 mb-4">8-week program for 100 participants</p>
+          <ul class="text-sm text-gray-600 space-y-1">
+            <li>• HACCP protocols</li>
+            <li>• Organic certification</li>
+            <li>• Testing procedures</li>
+          </ul>
+        </div>
+        
+        <!-- Track 4 -->
+        <div class="bg-white rounded-2xl shadow-lg p-6 hover-lift">
+          <div class="w-12 h-12 rounded-full bg-agri-100 flex items-center justify-center mb-4">
+            <i data-feather="truck" class="w-6 h-6 text-agri-600"></i>
+          </div>
+          <h3 class="text-xl font-bold text-agri-800 mb-2">Logistics & Supply Chain</h3>
+          <p class="text-gray-600 mb-4">10-week program for 150 participants</p>
+          <ul class="text-sm text-gray-600 space-y-1">
+            <li>• Distribution networks</li>
+            <li>• Inventory systems</li>
+            <li>• Cold chain management</li>
+          </ul>
+        </div>
+        
+        <!-- Track 5 -->
+        <div class="bg-white rounded-2xl shadow-lg p-6 hover-lift">
+          <div class="w-12 h-12 rounded-full bg-agri-100 flex items-center justify-center mb-4">
+            <i data-feather="bar-chart-2" class="w-6 h-6 text-agri-600"></i>
+          </div>
+          <h3 class="text-xl font-bold text-agri-800 mb-2">Data Analysis & Crop Monitoring</h3>
+          <p class="text-gray-600 mb-4">14-week program for 80 participants</p>
+          <ul class="text-sm text-gray-600 space-y-1">
+            <li>• Sensor systems</li>
+            <li>• Data analytics</li>
+            <li>• AI monitoring</li>
+          </ul>
+        </div>
+        
+        <!-- Track 6 -->
+        <div class="bg-white rounded-2xl shadow-lg p-6 hover-lift">
+          <div class="w-12 h-12 rounded-full bg-agri-100 flex items-center justify-center mb-4">
+            <i data-feather="users" class="w-6 h-6 text-agri-600"></i>
+          </div>
+          <h3 class="text-xl font-bold text-agri-800 mb-2">Leadership & Farm Management</h3>
+          <p class="text-gray-600 mb-4">18-week program for 50 participants</p>
+          <ul class="text-sm text-gray-600 space-y-1">
+            <li>• Operations management</li>
+            <li>• Financial planning</li>
+            <li>• Team leadership</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Job Creation -->
+  <section id="jobs" class="py-20 bg-white">
+    <div class="container mx-auto px-6 md:px-12">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-agri-900 mb-4">Job Creation & Career Pathways</h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">470 direct jobs across 8 categories with clear advancement opportunities</p>
+        <div class="w-20 h-1 bg-agri-500 mx-auto mt-4"></div>
+      </div>
+      
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+        <div>
+          <h3 class="text-2xl font-bold text-agri-800 mb-6">Employment Categories</h3>
+          <div class="space-y-6">
+            <div class="border-l-4 border-agri-500 pl-4">
+              <h4 class="font-bold text-agri-800">Crop Technicians (120 positions)</h4>
+              <p class="text-gray-600">Entry Level: $18-22/hour | Experienced: $24-28/hour</p>
+            </div>
+            
+            <div class="border-l-4 border-agri-500 pl-4">
+              <h4 class="font-bold text-agri-800">Facility Operators (90 positions)</h4>
+              <p class="text-gray-600">Entry Level: $20-25/hour | Experienced: $27-32/hour</p>
+            </div>
+            
+            <div class="border-l-4 border-agri-500 pl-4">
+              <h4 class="font-bold text-agri-800">Quality Control Specialists (40 positions)</h4>
+              <p class="text-gray-600">Entry Level: $22-28/hour | Experienced: $30-38/hour</p>
+            </div>
+            
+            <div class="border-l-4 border-agri-500 pl-4">
+              <h4 class="font-bold text-agri-800">Maintenance Technicians (60 positions)</h4>
+              <p class="text-gray-600">Entry Level: $24-30/hour | Experienced: $35-42/hour</p>
+            </div>
+            
+            <div class="border-l-4 border-agri-500 pl-4">
+              <h4 class="font-bold text-agri-800">Logistics Coordinators (45 positions)</h4>
+              <p class="text-gray-600">Entry Level: $22-28/hour | Experienced: $32-40/hour</p>
+            </div>
+            
+            <div class="border-l-4 border-agri-500 pl-4">
+              <h4 class="font-bold text-agri-800">Data Analysts (35 positions)</h4>
+              <p class="text-gray-600">Entry Level: $28-35/hour | Experienced: $40-48/hour</p>
+            </div>
+            
+            <div class="border-l-4 border-agri-500 pl-4">
+              <h4 class="font-bold text-agri-800">Supervisors/Managers (40 positions)</h4>
+              <p class="text-gray-600">Entry Level: $65K-75K | Experienced: $80K-95K</p>
+            </div>
+            
+            <div class="border-l-4 border-agri-500 pl-4">
+              <h4 class="font-bold text-agri-800">Administrative Support (40 positions)</h4>
+              <p class="text-gray-600">Entry Level: $16-20/hour | Experienced: $22-25/hour</p>
+            </div>
+          </div>
+        </div>
+        
+        <div>
+          <h3 class="text-2xl font-bold text-agri-800 mb-6">Career Advancement Framework</h3>
+          <div class="relative pl-8 border-l-2 border-agri-300 space-y-12">
+            <div class="relative">
+              <div class="absolute -left-11 w-8 h-8 rounded-full bg-agri-500 flex items-center justify-center text-white font-bold">1</div>
+              <h4 class="font-bold text-agri-800">Entry Position (0-6 months)</h4>
+              <p class="text-gray-600">On-the-job training, basic certification, mentorship</p>
+            </div>
+            
+            <div class="relative">
+              <div class="absolute -left-11 w-8 h-8 rounded-full bg-agri-500 flex items-center justify-center text-white font-bold">2</div>
+              <h4 class="font-bold text-agri-800">Experienced Worker (6-18 months)</h4>
+              <p class="text-gray-600">Advanced skills, cross-training, leadership prep</p>
+            </div>
+            
+            <div class="relative">
+              <div class="absolute -left-11 w-8 h-8 rounded-full bg-agri-500 flex items-center justify-center text-white font-bold">3</div>
+              <h4 class="font-bold text-agri-800">Specialist/Supervisor (18-36 months)</h4>
+              <p class="text-gray-600">Team leadership, advanced certification, management training</p>
+            </div>
+            
+            <div class="relative">
+              <div class="absolute -left-11 w-8 h-8 rounded-full bg-agri-500 flex items-center justify-center text-white font-bold">4</div>
+              <h4 class="font-bold text-agri-800">Senior Management (3+ years)</h4>
+              <p class="text-gray-600">Department leadership, strategic planning, mentoring</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Economic Impact -->
+  <section id="impact" class="py-20 bg-agri-50">
+    <div class="container mx-auto px-6 md:px-12">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-agri-900 mb-4">Economic Impact Analysis</h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">Quantifiable benefits for the Grand Rapids community</p>
+        <div class="w-20 h-1 bg-agri-500 mx-auto mt-4"></div>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
+        <div class="bg-white rounded-2xl p-6 text-center hover-lift">
+          <div class="text-3xl font-bold text-agri-700 mb-2">846</div>
+          <p class="text-agri-800 font-medium">Total Jobs Created</p>
+          <p class="text-gray-600 text-sm mt-2">Direct and indirect employment</p>
+        </div>
+        
+        <div class="bg-white rounded-2xl p-6 text-center hover-lift">
+          <div class="text-3xl font-bold text-agri-700 mb-2">$43.9M</div>
+          <p class="text-agri-800 font-medium">Annual Wage Impact</p>
+          <p class="text-gray-600 text-sm mt-2">Combined direct and indirect</p>
+        </div>
+        
+        <div class="bg-white rounded-2xl p-6 text-center hover-lift">
+          <div class="text-3xl font-bold text-agri-700 mb-2">$2.93M</div>
+          <p class="text-agri-800 font-medium">Tax Revenue</p>
+          <p class="text-gray-600 text-sm mt-2">Annual generation for community</p>
+        </div>
+        
+        <div class="bg-white rounded-2xl p-6 text-center hover-lift">
+          <div class="text-3xl font-bold text-agri-700 mb-2">340%</div>
+          <p class="text-agri-800 font-medium">5-Year ROI</p>
+          <p class="text-gray-600 text-sm mt-2">Community investment return</p>
+        </div>
+      </div>
+      
+      <div class="bg-white rounded-2xl shadow-lg p-8">
+        <h3 class="text-2xl font-bold text-agri-800 mb-6">Investment Breakdown</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div>
+            <h4 class="font-bold text-agri-800 mb-4">Training Investment</h4>
+            <div class="text-3xl font-bold text-agri-700 mb-2">$2.19M</div>
+            <ul class="text-gray-600 text-sm space-y-1">
+              <li>• Federal grants: 60%</li>
+              <li>• State funds: 25%</li>
+              <li>• Private partnerships: 15%</li>
+            </ul>
+          </div>
+          
+          <div>
+            <h4 class="font-bold text-agri-800 mb-4">Infrastructure</h4>
+            <div class="text-3xl font-bold text-agri-700 mb-2">$15-20M</div>
+            <ul class="text-gray-600 text-sm space-y-1">
+              <li>• Facility construction</li>
+              <li>• Equipment installation</li>
+              <li>• Technology systems</li>
+            </ul>
+          </div>
+          
+          <div>
+            <h4 class="font-bold text-agri-800 mb-4">Community Development</h4>
+            <div class="text-3xl font-bold text-agri-700 mb-2">$3.67M</div>
+            <ul class="text-gray-600 text-sm space-y-1">
+              <li>• Local business support</li>
+              <li>• Engagement programs</li>
+              <li>• Educational partnerships</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Implementation Timeline -->
+  <section id="timeline" class="py-20 bg-white">
+    <div class="container mx-auto px-6 md:px-12">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-4xl font-bold text-agri-900 mb-4">Implementation Timeline</h2>
+        <p class="text-xl text-gray-600 max-w-3xl mx-auto">27-month roadmap to full operation</p>
+        <div class="w-20 h-1 bg-agri-500 mx-auto mt-4"></div>
+      </div>
+      
+      <div class="relative">
+        <!-- Timeline line -->
+        <div class="absolute left-1/2 transform -translate-x-1/2 h-full w-1 bg-agri-200"></div>
+        
+        <!-- Timeline items -->
+        <div class="space-y-12">
+          <!-- Phase 1 -->
+          <div class="relative flex items-center">
+            <div class="hidden md:block md:w-1/2 pr-8 text-right">
+              <h3 class="text-xl font-bold text-agri-800">Phase 1: Assessment & Outreach</h3>
+              <p class="text-gray-600">Months 1-2</p>
+            </div>
+            <div class="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 rounded-full bg-agri-500 border-4 border-white z-10"></div>
+            <div class="md:w-1/2 pl-8">
+              <div class="md:hidden mb-2">
+                <h3 class="text-xl font-bold text-agri-800">Phase 1: Assessment & Outreach</h3>
+                <p class="text-gray-600">Months 1-2</p>
+              </div>
+              <ul class="text-gray-600 space-y-1">
+                <li>• Worker assessments (500+)</li>
+                <li>• Skills inventory</li>
+                <li>• Community outreach</li>
+                <li>• Partnership initiation</li>
+              </ul>
+            </div>
+          </div>
+          
+          <!-- Phase 2 -->
+          <div class="relative flex items-center">
+            <div class="md:w-1/2 pr-8 text-right">
+              <h3 class="text-xl font-bold text-agri-800">Phase 2: Partnership Development</h3>
+              <p class="text-gray-600">Months 3-5</p>
+            </div>
+            <div class="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 rounded-full bg-agri-500 border-4 border-white z-10"></div>
+            <div class="md:w-1/2 pl-8"></div>
+          </div>
+          
+          <!-- Phase 3 -->
+          <div class="relative flex items-center">
+            <div class="hidden md:block md:w-1/2 pr-8 text-right"></div>
+            <div class="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 rounded-full bg-agri-500 border-4 border-white z-10"></div>
+            <div class="md:w-1/2 pl-8">
+              <h3 class="text-xl font-bold text-agri-800">Phase 3: Training Program Launch</h3>
+              <p class="text-gray-600">Months 6-11</p>
+              <ul class="text-gray-600 space-y-1">
+                <li>• First training cohorts</li>
+                <li>• Instructor certification</li>
+                <li>• Industry mentorship</li>
+                <li>• 300 participants enrolled</li>
+              </ul>
+            </div>
+          </div>
+          
+          <!-- Phase 4 -->
+          <div class="relative flex items-center">
+            <div class="md:w-1/2 pr-8 text-right">
+              <h3 class="text-xl font-bold text-agri-800">Phase 4: Facility Construction</h3>
+              <p class="text-gray-600">Months 12-23</p>
+            </div>
+            <div class="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 rounded-full bg-agri-500 border-4 border-white z-10"></div>
+            <div class="md:w-1/2 pl-8"></div>
+          </div>
+          
+          <!-- Phase 5 -->
+          <div class="relative flex items-center">
+            <div class="hidden md:block md:w-1/2 pr-8 text-right"></div>
+            <div class="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 rounded-full bg-agri-500 border-4 border-white z-10"></div>
+            <div class="md:w-1/2 pl-8">
+              <h3 class="text-xl font-bold text-agri-800">Phase 5: Initial Hiring & Training</h3>
+              <p class="text-gray-600">Months 24-27</p>
+              <ul class="text-gray-600 space-y-1">
+                <li>• Priority hiring of graduates</li>
+                <li>• On-site operational training</li>
+                <li>• Quality system implementation</li>
+                <li>• 200 workers operational</li>
+              </ul>
+            </div>
+          </div>
+          
+          <!-- Phase 6 -->
+          <div class="relative flex items-center">
+            <div class="md:w-1/2 pr-8 text-right">
+              <h3 class="text-xl font-bold text-agri-800">Phase 6: Full Operations</h3>
+              <p class="text-gray-600">Month 28+</p>
+            </div>
+            <div class="absolute left-1/2 transform -translate-x-1/2 w-6 h-6 rounded-full bg-agri-500 border-4 border-white z-10"></div>
+            <div class="md:w-1/2 pl-8"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="py-20 bg-agri-800 text-white">
+    <div class="container mx-auto px-6 md:px-12 text-center">
+      <h2 class="text-3xl md:text-4xl font-bold mb-6">Join Our Workforce Transformation Initiative</h2>
+      <p class="text-xl text-agri-100 max-w-3xl mx-auto mb-10">
+        Whether you're a displaced worker seeking new opportunities or a partner interested in supporting our mission, we welcome your involvement.
+      </p>
+      <div class="flex flex-col sm:flex-row justify-center gap-4">
+        <a href="#contact" class="bg-agri-500 hover:bg-agri-600 text-white font-semibold py-3 px-8 rounded-lg transition duration-300">
+          Contact Us
+        </a>
+        <a href="/" class="bg-transparent border-2 border-white text-white hover:bg-white hover:text-agri-800 font-semibold py-3 px-8 rounded-lg transition duration-300">
+          Back to Main Site
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <custom-footer></custom-footer>
+
+  <!-- Scripts -->
+  <script src="components/navbar.js"></script>
+  <script src="components/footer.js"></script>
+  <script src="script.js"></script>
+  <script>
+    feather.replace();
+  </script>
+</body>
+</html>
