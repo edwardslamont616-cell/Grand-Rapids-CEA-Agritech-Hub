@@ -133,16 +133,16 @@ class CustomFooter extends HTMLElement {
           <div class="footer-column">
             <h3>Contact Us</h3>
             <ul>
-              <li>555 Monroe Ave NW</li>
-              <li>Grand Rapids, MI 49503</li>
-              <li>investors@urbanagritech.com</li>
-              <li>+1 (616) 555-0123</li>
+              <li>PO BOX 1613 </li>
+              <li>Grand Rapids, MI 49501</li>
+              <li></li>
+              <li>+1 (616) 889-3105</li>
             </ul>
           </div>
 </div>
         
         <div class="copyright">
-          <p>&copy; 2023 Urban AgriTech Hub. All rights reserved. Cultivating a sustainable future.</p>
+          <p>&copy; 2025 Urban AgriTech Hub. All rights reserved. Cultivating a sustainable future.</p>
         </div>
       </footer>
     `;
