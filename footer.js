@@ -135,7 +135,7 @@ class CustomFooter extends HTMLElement {
             <ul>
               <li>PO BOX 1613 </li>
               <li>Grand Rapids, MI 49501</li>
-              <li>Coming Soon</li>
+              <li>info_agtech@icloud.com</li>
               <li>+1 (616) 889-3105</li>
             </ul>
           </div>
