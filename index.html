@@ -636,56 +636,61 @@
             </div>
             
             <div class="md:w-1/2 p-8">
-              <form class="space-y-6">
-                <div>
-                  <label for="name" class="block text-gray-700 font-medium mb-2">Full Name</label>
-                  <input type="text" id="name" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-agri-500 focus:border-agri-500">
-                </div>
-                
-                <div>
-                  <label for="email" class="block text-gray-700 font-medium mb-2">Email Address</label>
-                  <input type="email" id="email" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-agri-500 focus:border-agri-500">
-                </div>
-                <div>
-                  <label for="organization" class="block text-gray-700 font-medium mb-2">Organization</label>
-                  <input type="text" id="organization" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-agri-500 focus:border-agri-500">
-                </div>
-                
-                <div>
-                  <label for="interest" class="block text-gray-700 font-medium mb-2">Interest Type</label>
-                  <select id="interest" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-agri-500 focus:border-agri-500">
-                    <option value="">Select Interest</option>
-                    <option value="investment">Investment Opportunity</option>
-                    <option value="partnership">Strategic Partnership</option>
-                    <option value="tour">Facility Tour</option>
-                    <option value="other">Other</option>
-                  </select>
-                </div>
-                
-                <div>
-                  <label for="message" class="block text-gray-700 font-medium mb-2">Message</label>
-                  <textarea id="message" rows="4" class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-agri-500 focus:border-agri-500"></textarea>
-                </div>
-                
-                <button type="submit" class="w-full bg-agri-600 hover:bg-agri-700 text-white font-semibold py-3 px-6 rounded-lg transition duration-300">
-                  Send Message
-                </button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
+              <form action="https://app.keila.io/forms/nfrm_GRYrJz3w" class="contact-form container bg-white rounded py-4 md:py-8 flex flex-col gap-4" method="post" style="background-color:#f9fafb!important;color:#111827!important">
+  <h1 class="text-4xl my-4">
+    AgriTech Hub Contact Form
+  </h1>
+  <div class="text-xl">
+    Join our community of innovators, investors, and partners building the future of sustainable food production in Grand Rapids.
+  </div>
+  <div class="flex flex-col">
+    <label for="contact_email">
+      Email
+    </label>
+    <input id="contact_email" name="contact[email]" style="background-color:#ffffff!important;border-color:#6b7280!important;color:#111827!important" type="email"/>
+  </div>
+  <div class="flex flex-col">
+    <label for="contact_first_name">
+      First name
+    </label>
+    <input id="contact_first_name" name="contact[first_name]" style="background-color:#ffffff!important;border-color:#6b7280!important;color:#111827!important" type="text"/>
+  </div>
+  <div class="flex flex-col">
+    <label for="contact_last_name">
+      Last name (optional)
+    </label>
+    <input id="contact_last_name" name="contact[last_name]" style="background-color:#ffffff!important;border-color:#6b7280!important;color:#111827!important" type="text"/>
+  </div>
+  <div class="flex flex-col">
+    <label for="contact_data_organization">
+      Organization (optional)
+    </label>
+    <input id="contact_data_organization" name="contact[data][organization]" style="background-color:#ffffff!important;border-color:#6b7280!important;color:#111827!important" type="text"/>
+  </div>
+  <div class="flex flex-col">
+    <label for="contact_data_interest">
+      Interest Area (optional)
+    </label>
+    <input id="contact_data_interest" name="contact[data][interest]" style="background-color:#ffffff!important;border-color:#6b7280!important;color:#111827!important" type="text"/>
+  </div>
+  <div class="flex flex-col">
+    <label for="contact_data_message">
+      Message (optional)
+    </label>
+    <input id="contact_data_message" name="contact[data][message]" style="background-color:#ffffff!important;border-color:#6b7280!important;color:#111827!important" type="text"/>
+  </div>
+  <input aria-hidden="true" autocomplete="off" name="h[url]" novalidate="" style="display: none"/>
+  <div class="flex flex-col">
+    <div class="h-captcha" data-sitekey="a1c5fab7-71df-4ea4-af75-87a3d07c61de" data-theme="dark">
     </div>
-  </section>
-<!-- Footer -->
-  <custom-footer></custom-footer>
+    <script async="" defer="" src="https://hcaptcha.com/1/api.js">
+    </script>
+  </div>
+  <div class="flex justify-start">
+    <button class="button button--cta button--large" style="background-color:#047857!important;color:#f9fafb!important">
+      Join the Movement
+    </button>
+  </div>
+</form>
 
-  <!-- Scripts -->
-  <script src="components/navbar.js"></script>
-  <script src="components/footer.js"></script>
-  <script src="script.js"></script>
-  <script>
-    feather.replace();
-  </script>
-</body>
-</html>
+              
