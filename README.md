@@ -1,22 +1,75 @@
+
+# Grand Rapids CEA Agritech Hub (555 Monroe)
+### Open-Source Framework for Urban Food Resilience & Workforce Innovation
+
+![CEA Hub Visualization](cea_social_preview.png)
+
+## 🚀 Vision
+**We are building the operating system for the next generation of urban agriculture.** 
+
+The Grand Rapids CEA Agritech Hub at 555 Monroe is a proposed mixed-use facility designed to validate the **Controlled Environment Agriculture (CEA)** model for the Midwest. By combining **vertical farming infrastructure**, **AI-driven climate control**, and **public-facing research**, we aim to solve the "urban food paradox": high demand for fresh, local produce met by fragile, long-distance supply chains.
+
+This repository serves as the **digital twin** and **open knowledge base** for the project, providing transparent access to feasibility studies, energy models, and impact metrics for investors, researchers, and community stakeholders.
+
 ---
-title: Urban AgriTech Hub 🌱
-colorFrom: blue
-colorTo: blue
-emoji: 🐳
-sdk: static
-pinned: false
-tags:
-  - deepsite-v3
+
+## 📍 Why Grand Rapids?
+Grand Rapids, Michigan, offers a unique "Goldilocks" environment for CEA innovation:
+*   **Market Demand:** A $104.7B state agriculture economy with a localized gap in winter production.
+*   **Water Access:** Situated in the Great Lakes basin, offering water security unavailable to Western US competitors.
+*   **Institutional Density:** Direct proximity to **Michigan State University AgBioResearch**, **Grand Rapids SmartZone**, and a robust food manufacturing supply chain.
+*   **Climate Advantage:** Lower cooling costs than Southern vertical farms; leveraging hybrid greenhouse models for energy efficiency.
+
 ---
 
-# Welcome to your new DeepSite project!
-This project was created with [DeepSite](https://huggingface.co/deepsite).
-Grand Rapids CEA Agritech Hub
+## 🎯 Impact Metrics & Goals
+We measure success through a quadruple-bottom-line framework:
 
-A landmark urban agriculture project in Grand Rapids, Michigan, demonstrating how integrated Controlled Environment Agriculture (CEA) can deliver resilient, local, and sustainable food systems.
- Project Overview
+| Metric Category | Target Outcomes | Stakeholder Alignment |
+| :--- | :--- | :--- |
+| **🌱 Agritech Innovation** | Digital twin validation, open-source crop data, AI climate optimization. | *Alex Insight, Evelyn Evergreen* |
+| **🏥 Health & Community** | Measured increase in local nutrient density, "Food as Medicine" pilot programs. | *Jordan Cause, Dr. Riley Nutra* |
+| **🏭 Commercial Ops** | Viable unit economics, B2B local procurement pilots, supply chain redundancy. | *Casey Builder, Sam Culinary* |
+| **🎓 Workforce/STEM** | K-16 curriculum integration, internships, green job creation. | *Dean Parker, Casey Builder* |
 
-The Grand Rapids CEA Agritech Hub is a 100,000 sq ft, six-layer vertical farming facility powered by on-site renewable energy.[page:1] It integrates advanced hydroponics, climate control, automation, and data analytics to enable year-round, pesticide-free food production with drastically reduced water and land use.
+---
+
+## 🛠️ Technology Stack (Proposed)
+*   **Hardware:** Hybrid vertical racking systems, broad-spectrum LED arrays, IoT sensor mesh (Temp, RH, CO2, VPD).
+*   **Software:** Python-based climate modeling, OpenComputerVision for crop health monitoring, Digital Twin architecture.
+*   **Data:** Open data standards for researchers to validate yield and resource efficiency.
+
+---
+
+## 🤝 Get Involved
+This project thrives on cross-sector collaboration. Here is how you can contribute:
+
+### 🔬 For Researchers (MSU / Academic)
+*   Review our [Research Protocols](/docs/research) (Coming Soon).
+*   Propose a joint study on nutrient density or energy efficiency.
+
+### 💼 For Investors & Partners
+*   Review our [Investment Thesis](/docs/investment_thesis.md) (Coming Soon).
+*   **Contact:** [Insert Email/LinkedIn] for a walkthrough of the financial model.
+
+### 🍴 For Food Systems Operators (Chefs / Distributors)
+*   Join our **Chef Advisory Panel** to shape crop selection.
+*   Pilot our "Local Provenance" tracking system.
+
+### 💻 For Developers
+*   Contribute to our energy modeling tools.
+*   Check the `Issues` tab for open tasks.
+
+---
+
+## 📜 License & Governance
+This project operates with a commitment to **open innovation**. 
+*   **Code:** MIT License
+*   **Data:** CC-BY-4.0 (Attribution required)
+
+---
+*Maintained by the Grand Rapids CEA Agritech Hub Team.*
+
 
 Key objectives:
 
