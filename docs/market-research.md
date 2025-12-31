@@ -4,7 +4,7 @@
 
 ### Executive Summary
 
-This document provides comprehensive market research for the Grand Rapids CEA Agritech Hub project at 555 Monroe.
+This document provides comprehensive market research for the Grand Rapids CEA Agritech Hub project proposed at 555 Monroe.
 
 ### Market Overview
 
