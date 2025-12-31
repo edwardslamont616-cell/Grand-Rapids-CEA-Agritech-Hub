@@ -2,7 +2,7 @@
 ## High-Value Crop Integration for CEA Grand Rapids Facility
 
 **Prepared:** December 31, 2025  
-**Location:** 555 Monroe Avenue NW, Grand Rapids, MI 49503
+**Location:** Proposed location at 555 Monroe Avenue NW, Grand Rapids, MI 49503
 
 ---
 
