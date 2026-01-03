@@ -50,7 +50,7 @@ This project thrives on cross-sector collaboration. Here is how you can contribu
 
 ### 💼 For Investors & Partners
 *   Review our [Investment Thesis](/docs/investment-thesis.md).
-*   **Contact:** [Insert Email/LinkedIn] for a walkthrough of the financial model.
+*   **Contact:** linkedin.com/in/lamont-edwards-24a26b251 for a walkthrough of the financial model.
 
 ### 🍴 For Food Systems Operators (Chefs / Distributors)
 *   Join our **Chef Advisory Panel** to shape crop selection.
