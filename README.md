@@ -49,7 +49,7 @@ This project thrives on cross-sector collaboration. Here is how you can contribu
 *   Propose a joint study on nutrient density or energy efficiency.
 
 ### 💼 For Investors & Partners
-*   Review our [Investment Thesis](/docs/investment_thesis.md) (Coming Soon).
+*   Review our [Investment Thesis](/docs/investment-thesis.md) (Coming Soon).
 *   **Contact:** [Insert Email/LinkedIn] for a walkthrough of the financial model.
 
 ### 🍴 For Food Systems Operators (Chefs / Distributors)
