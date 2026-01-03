@@ -2,7 +2,7 @@
 # Grand Rapids CEA Agritech Hub (555 Monroe)
 ### Open-Source Framework for Urban Food Resilience & Workforce Innovation
 
-![CEA Hub Visualization]()
+![CEA Hub Visualization](cea-hub-visualization.png)
 
 ## 🚀 Vision
 **We are building the operating system for the next generation of urban agriculture.** 
