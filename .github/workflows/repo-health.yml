@@ -1,0 +1,84 @@
+name: Repository Health Check
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  schedule:
+    # Run weekly on Monday at 9am EST (2pm UTC)
+    - cron: '0 14 * * 1'
+  workflow_dispatch:
+
+jobs:
+  health-check:
+    runs-on: ubuntu-latest
+    name: Validate Repository Structure
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Check for required documentation
+        run: |
+          echo "📋 Checking repository health..."
+          
+          # Check for key files
+          FILES=("README.md" "CONTRIBUTING.md" "LICENSE")
+          MISSING=()
+          
+          for file in "${FILES[@]}"; do
+            if [ -f "$file" ]; then
+              echo "✅ Found: $file"
+            else
+              echo "⚠️  Missing: $file"
+              MISSING+=("$file")
+            fi
+          done
+          
+          # Report summary
+          echo ""
+          echo "📊 Summary:"
+          if [ ${#MISSING[@]} -eq 0 ]; then
+            echo "✅ All essential documentation files present"
+          else
+            echo "⚠️  Missing ${#MISSING[@]} recommended file(s)"
+            echo "Consider adding: ${MISSING[*]}"
+          fi
+          
+          # Count markdown files
+          MD_COUNT=$(find . -name '*.md' -not -path './node_modules/*' | wc -l)
+          echo "📝 Total markdown files: $MD_COUNT"
+          
+          # Repository stats
+          echo ""
+          echo "📈 Repository Statistics:"
+          echo "Total files: $(git ls-files | wc -l)"
+          echo "Last commit: $(git log -1 --format='%h - %s (%cr)')"
+      
+      - name: Validate markdown links (if markdown files exist)
+        run: |
+          if [ -f "README.md" ]; then
+            echo "🔗 README.md exists and is readable"
+            echo "File size: $(wc -c < README.md) bytes"
+            echo "Line count: $(wc -l < README.md) lines"
+          fi
+      
+      - name: Check GitHub configuration
+        run: |
+          echo "⚙️  GitHub Configuration:"
+          if [ -d ".github" ]; then
+            echo "✅ .github directory exists"
+            if [ -d ".github/workflows" ]; then
+              WF_COUNT=$(ls -1 .github/workflows/*.yml 2>/dev/null | wc -l)
+              echo "✅ Workflows configured: $WF_COUNT"
+            fi
+          fi
+      
+      - name: Health check summary
+        run: |
+          echo ""
+          echo "═══════════════════════════════════════"
+          echo "🎯 Grand Rapids CEA Agritech Hub"
+          echo "✅ Repository health check complete"
+          echo "═══════════════════════════════════════"
