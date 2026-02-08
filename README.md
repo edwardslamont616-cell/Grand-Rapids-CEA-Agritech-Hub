@@ -2,6 +2,8 @@
 # Grand Rapids CEA Agritech Hub (555 Monroe)
 ### Open-Source Framework for Urban Food Resilience & Workforce Innovation
 
+
+[![Repository Health Check](https://github.com/edwardslamont616-cell/Grand-Rapids-CEA-Agritech-Hub/actions/workflows/repo-health.yml/badge.svg)](https://github.com/edwardslamont616-cell/Grand-Rapids-CEA-Agritech-Hub/actions/workflows/repo-health.yml)
 ![CEA Hub Visualization](cea-hub-visualization.png)
 
 ## 🚀 Vision
