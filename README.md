@@ -1,4 +1,5 @@
 # Grand Rapids CEA Agritech Hub (555 Monroe)
+
 ### Open-Source Framework for Urban Food Resilience & Workforce Innovation
 
 [![Repository Health Check](https://github.com/edwardslamont616-cell/Grand-Rapids-CEA-Agritech-Hub/actions/workflows/repo-health.yml/badge.svg)](https://github.com/edwardslamont616-cell/Grand-Rapids-CEA-Agritech-Hub/actions/workflows/repo-health.yml)
@@ -42,11 +43,10 @@ We measure success through a quadruple-bottom-line framework:
 ---
 
 ## 💰 Grant Funding Strategy
-
 We've identified **$72.4M in grant opportunities** across 50 federal, state, and private funding sources. Our Tier 1 pipeline ($9.7M) focuses on:
 
 - **USDA Agricultural Programs** ($3.4M potential)
-- **Environmental & Climate Grants** ($1.4M potential)  
+- **Environmental & Climate Grants** ($1.4M potential)
 - **Community Development Funds** ($2.5M potential)
 - **Workforce & Innovation Programs** ($2.4M potential)
 
@@ -60,7 +60,7 @@ We've identified **$72.4M in grant opportunities** across 50 federal, state, and
 This project thrives on cross-sector collaboration. Here is how you can contribute:
 
 ### 🔬 For Researchers (MSU / Academic)
-* Review our [Research Protocols](/docs/research) (Coming Soon).
+* Review our [Research Protocols](/docs/research-protocols.md).
 * Propose a joint study on nutrient density or energy efficiency.
 
 ### 💼 For Investors & Partners
@@ -77,8 +77,15 @@ This project thrives on cross-sector collaboration. Here is how you can contribu
 
 ---
 
+## 📅 Project Roadmap
+1. **Phase 1: Feasibility & Design (Q2 2025)** – Finalizing site architecture and energy models for 555 Monroe.
+2. **Phase 2: Pilot Facility Launch (Q4 2025)** – Initial vertical stacks operational with broad-spectrum LED arrays.
+3. **Phase 3: Full Scale Operations & Workforce Integration (Q2 2026)** – Full yield capacity and K-16 curriculum launch.
+
+---
+
 ## 📜 License & Governance
-This project operates with a commitment to **open innovation**. 
+This project operates with a commitment to **open innovation**.
 * **Code:** MIT License
 * **Data:** CC-BY-4.0 (Attribution required)
 
