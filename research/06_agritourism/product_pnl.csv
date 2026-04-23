@@ -1,0 +1,11 @@
+product_line,unit_price_avg,unit_volume_target,gross_revenue,direct_cost,contribution_margin,margin_pct,touchpoints_counted,notes
+Guided Greenhouse Tours (public),$26,18000,$468000,$187200,$280800,60%,18000,"2 tours/day x 6 days x 49 weeks; avg 15 guests/tour; direct cost ~$10.40/person (labor + tasting COGS)"
+Adult Workshops (beekeeping/hydroponics/fermentation),$100,3600,$360000,$162000,$198000,55%,3600,"3 workshops/week x 49 weeks x ~24 students; $45/seat direct (instructor + materials + overhead)"
+Farm-to-Table Dinners,$125,3000,$375000,$187500,$187500,50%,3000,"2 dinners/month x 10 months x 50 seats; quarterly Signature events at higher price; COGS 35% + labor 15%"
+Corporate Retreats & Team Building,$225,1800,$405000,$202500,$202500,50%,1800,"2/week target; 18 heads avg; direct incl. catering + facilitation + materials; Y1 ramp to ~$250-300K realistic"
+Private Events (venue + F&B),$2200 flat + $45/head,36 events / 1260 heads,$135900,$89700,$46200,34%,1260,"3/month x 12 months; $1200-2800 flat; lower margin due to A/V + staffing + catering COGS"
+Annual Memberships,$110,800 households,$88000,$17600,$70400,80%,800,"Conservative Y1; grow to 2000 HH by Y3; direct: card + fulfillment + harvest share ~$22/HH"
+School Field Trips,$13,6500 students,$84500,$52000,$32500,38%,6500,"Sept-May; 2 groups/day x 4 days/wk x 30 wks x 27 students; lower margin due to educator labor + materials"
+Self-Guided Experience,$13,5000,$65000,$26000,$39000,60%,5000,"Weekday digital-audio-guided; ~100 visits/week x 49 weeks; no tasting included"
+Retail / Harvest Add-ons,$11,12000 transactions,$132000,$66000,$66000,50%,12000,"~40% of paid visitors; honey + microgreens + merchandise + preserved items; COGS ~50%"
+TOTALS,,~50900 touchpoints,$2113400,$990500,$1122900,53%,50900,Blended 53% contribution margin; $1.22M target = contribution margin interpretation OR ~47K touchpoints at $26 avg for gross revenue interpretation

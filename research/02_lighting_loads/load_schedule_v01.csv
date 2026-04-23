@@ -1,0 +1,21 @@
+Zone,Sub-Zone,Area_m2,Installed_Intensity_W_per_m2,Installed_kW,Diversity_Factor,Demand_kW,Operating_Hours_per_yr,Annual_kWh,Notes
+Zone A - Leafy Greens,Lettuce / arugula / spinach / chard,7581,65,492.8,1.00,492.8,8760,4317000,24L:0D continuous; 2.7 umol/J @ 170 umol/m2/s
+Zone A - Herbs,Basil / cilantro / mint,1000,80,80.0,0.95,76.0,6570,499600,18 h photoperiod; not continuous
+Zone C - Microgreens,Sunflower / radish / pea / broccoli,1338,45,60.2,0.90,54.2,5840,316400,16 h photoperiod; shorter cycles; lower DLI
+Zone A+C Lighting Subtotal,All VF crop zones,9919,,633.0,,623.0,,5133000,
+Zone B - Greenhouse Tomato,Fruiting tomato (indeterminate),2000,300,600.0,0.90,540.0,4200,2268000,Supplemental Oct-May; 16 h/day; Michigan low-solar winter
+Lighting Grand Total,All crop zones,11919,,1233.0,,1163.0,,7401000,
+HVAC - Zone A/C VF,Dehumidification + DX cooling,9919,,189.9,0.85,161.4,8760,1413600,~30% of Zone A+C lighting; latent-dominant
+HVAC - Zone B GH,Greenhouse heating/venting,2000,,80.0,0.70,56.0,5000,280000,GH heating gas primary; electrical fan/pump component
+HVAC - Admin / Visitor,HVAC comfort zones,3721,,75.0,0.75,56.3,4380,246400,Standard commercial HVAC
+HVAC Subtotal,,,, 344.9,,273.7,,1940000,
+Nutrient / Irrigation Pumps,NFT/DWC/drip systems,22297,2,44.6,0.85,37.9,8760,332000,Continuous; VFD drives assumed
+Soy Processing,Tofu + soy milk lines,,,300.0,0.70,210.0,4800,1008000,Est. 200-400 kW demand; midpoint 300 kW; 16h x 300d
+Apiary Refrigeration,4000 hive cold storage,,,200.0,0.60,120.0,8760,1051200,50 W/hive avg; 60% coincidence factor; year-round
+Environmental Controls + SCADA,Sensors / controllers / VFDs,,,50.0,0.90,45.0,8760,394200,
+IT Infrastructure,Servers / networking,,,30.0,1.00,30.0,8760,262800,24/7
+Visitor Center + Admin,Lighting / general power,,,100.0,0.65,65.0,3650,237300,365 days; 10 h/day
+Exterior / Site / EV,Parking / pathways / EV charging,,,50.0,0.70,35.0,4380,153300,
+Ancillary Subtotal,,,, 774.6,,542.9,,3438800,
+FACILITY TOTAL,,,,2352.5,,1979.6,,12179800,
+Pro-Forma Estimate (for comparison),,,,,,,,4205000,PRO-FORMA AS SUBMITTED; UNDERSTATED BY ~2.9x vs. 24L:0D model
