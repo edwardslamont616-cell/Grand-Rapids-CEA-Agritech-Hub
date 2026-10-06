@@ -1,0 +1,5 @@
+case,load_MWh,hydro_kW,hydro_MWh_model,AD_MW,AD_t_per_yr,AD_t_per_day,self_supply_pct,capex_M,yr1_EBITDA_M,IRR_pct,NPV_M,payback_yr,DSCR_yr1,all_grid_bill_M
+Load 12.2 GWh (repo bottom-up),12200,325,2694,1.1,50107,137,85.3,10.6,1.30,17.0,6.8,6,2.61,1.28
+Load 27 GWh (repo benchmark),27000,325,2694,2.9,132101,362,85.3,24.1,3.38,19.3,20.2,5,2.98,2.83
+Load 52.8 GWh (report; AD-only mix),52800,325,2694,6.0,273312,749,84.8,46.3,6.97,20.6,43.9,5,3.19,5.54
+Load 52.8 GWh (hybrid base: 2.44 MW hydro + 2.5 MW AD + 1.5 MW gasification),52800,2439,16389,2.5,113880,312,84.4,43.6,3.81,11.7,10.8,8,1.85,5.54
